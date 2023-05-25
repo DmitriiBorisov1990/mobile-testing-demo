@@ -61,6 +61,7 @@ public class ConfigurationReader {
     }
 
     public int appiumPort() {
-        return Integer.getInteger(properties.getProperty("appium.port"));
+        //return Integer.getInteger(properties.getProperty("appium.port"));
+        return 4723;
     }
 }
